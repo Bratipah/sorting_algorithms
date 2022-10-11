@@ -1,4 +1,4 @@
-/*
+ `/*
  * File: 100-shell_sort.c
  * Auth: Dagem Tsehay
  */
