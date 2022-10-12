@@ -21,7 +21,7 @@ void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker)
 	listint_t *tmp = (*shaker)->next;
 
 	if ((*shaker)->prev != NULL)
-		(*shaker)->prev->next = tmp
+		(*shaker)->prev->next = tmp;
 	else
 		*list = tmp;
 	tmp->prev = (*shaker)->prev;
